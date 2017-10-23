@@ -1,0 +1,22 @@
+body {
+  padding: 0px;
+}
+
+a {
+  color: #00B7FF;
+}
+*{
+    padding:0;
+    margin: 0px;
+}
+.col-md-1,.col-md-8,.col-md-4,.col-md-6,.col-xs-6,.col-xs-12,.clearfix{
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #666;
+    text-align: center;
+    box-sizing: border-box;
+}
+.ft{
+    width:100%;
+    height:500px;
+}
