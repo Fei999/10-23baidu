@@ -1,0 +1,131 @@
+
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+/* 
+* @Author: Busy
+* @Date:   2017-08-15 14:36:46
+* @Last Modified by:   Busy
+* @Last Modified time: 2017-10-23 11:22:49
+*/
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+/*a {
+    text-decoration: none;
+}*/
+
+input, textarea {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.clearfix:after, .clearfix:before {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix,.aaa {
+    *zoom: 1;
+}
+ul{
+    float:right;
+    margin: 19px 0 5px;
+    padding-top: 1px;;
+    margin-right: 20px;;
+}
+ul li{
+    float: left;
+    line-height: 24px;
+    margin-left: 20px;;
+}
+ul li a{
+    font-weight: 600;
+    color:#333;
+}
+ul li a:hover{
+    color:#00c;
+}
+.img1{
+    display:block;
+    margin:auto;
+    text-align: center;
+    width:270px;
+    height:129px;
+}
+form{
+    text-align: center;
+}
+input{
+    width: 500px;
+    height:32px;
+    border:1px solid #b6b6b6;
+    margin-top: 22px;;
+}
+button{
+    width: 100px;
+    height:36px;
+    border:1px solid #3385ff;
+    background-color: #3385ff;
+    color:#fff;
+}
+.aaa{
+   clear: both; 
+}
+.content{
+    margin-top: 180px;;
+    text-align: center;
+}
+.c1{
+    text-align: center;
+    width:60px;
+    height:86px;
+    margin:auto;
+}
+b{
+    color:#666;
+}
+.ft{
+    margin-top: 20px;;
+}
+p{
+    line-height: 30px;;
+}
+p,p>a,.ft>a{
+    color:#666;
+    font-size: 12px;;
+}
+.ft>a{
+    margin-left: 25px;;
+}
+
+.gd{
+    padding:2px;
+    background-color: #38f;
+    color:#fff;
+    text-decoration: none;
+}
